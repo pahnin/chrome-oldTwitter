@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "Chrome Old Twitter",
+  "description": "Addon to change some css of twitter.com so that it may feel more comfortable",
+  "version": "1.0",
+
+  "permissions": [
+    "https://twitter.com"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://*.twitter.com/*"],
+      "js": ["jquery.js", "oldTwitter.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
