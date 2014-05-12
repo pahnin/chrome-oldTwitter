@@ -3,7 +3,7 @@
 
   "name": "Chrome Old Twitter",
   "description": "Addon to change some css of twitter.com so that it may feel more comfortable",
-  "version": "1.0",
+  "version": "0.25",
 
   "permissions": [
     "https://twitter.com"
