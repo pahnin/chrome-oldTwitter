@@ -6,7 +6,7 @@
   "version": "0.25",
 
   "permissions": [
-    "https://twitter.com"
+    "*://*.twitter.com/*"
   ],
   "content_scripts": [
     {
